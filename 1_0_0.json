@@ -175,7 +175,7 @@
     "llm_chat",
     "llm_prompt_lab"
   ]
-}
+},
 
     {
   "name": "Llama-3.2-3B-Instruct",
