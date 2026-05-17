@@ -148,16 +148,17 @@
         "llm_tiny_garden"
       ]
     },
-    {
+
+{
   "name": "Llama-3.2-3B-Instruct",
   "modelId": "bartowski/Llama-3.2-3B-Instruct-GGUF",
-  "modelFile": "Llama-3.2-3B-Instruct-IQ3_M.gguf",
+  "modelFile": "Llama-3.2-3B-Instruct-Q6_K.gguf",
   "description": "Meta Llama 3.2 3B Instruct GGUF model optimized for llama.cpp Android.",
-  "sizeInBytes": 1673527296,
-  "minDeviceMemoryInGb": 3,
+  "sizeInBytes": 2834678415,
+  "minDeviceMemoryInGb": 6,
   "commitHash": "main",
   "contextLength": 4096,
-  "quantization": "IQ3_M",
+  "quantization": "Q6_K",
   "defaultConfig": {
     "topK": 40,
     "topP": 0.9,
