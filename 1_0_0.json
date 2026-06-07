@@ -178,7 +178,7 @@
 },
 
 {
-  "name": "Llama-3.2-3B-Instruct",
+  "name": "Llama-3.2-3B-Instruct (Q6_K)",
   "modelId": "bartowski/Llama-3.2-3B-Instruct-GGUF",
   "modelFile": "Llama-3.2-3B-Instruct-Q6_K.gguf",
   "description": "Meta Llama 3.2 3B Instruct model quantized in Q6_K format for llama.cpp Android.",
