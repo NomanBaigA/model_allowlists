@@ -177,11 +177,11 @@
   ]
 },
 
-    {
-  "name": "Llama-3.2-3B-Instruct (Q6_K)",
+{
+  "name": "Llama-3.2-3B-Instruct",
   "modelId": "bartowski/Llama-3.2-3B-Instruct-GGUF",
   "modelFile": "Llama-3.2-3B-Instruct-Q6_K.gguf",
-  "description": "Meta Llama 3.2 3B Instruct model quantized to Q6_K format for llama.cpp-based Android applications. Supports text generation and chat tasks.",
+  "description": "Meta Llama 3.2 3B Instruct model quantized in Q6_K format for llama.cpp Android.",
   "sizeInBytes": 2834678415,
   "minDeviceMemoryInGb": 6,
   "commitHash": "main",
@@ -189,9 +189,8 @@
     "topK": 40,
     "topP": 0.9,
     "temperature": 0.8,
-    "maxContextLength": 4096,
     "maxTokens": 1024,
-    "accelerators": "cpu"
+    "accelerators": "cpu,gpu"
   },
   "taskTypes": [
     "llm_chat",
