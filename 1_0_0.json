@@ -110,6 +110,34 @@
       "taskTypes": ["llm_chat", "llm_prompt_lab"]
     },
 
+    {
+  "name": "Qwen3.5-2B",
+  "modelId": "unsloth/Qwen3.5-2B-GGUF",
+  "modelFile": "Qwen3.5-2B-Q4_K_M.gguf",
+  "description": "Qwen3.5 2B Instruct model quantized to Q4_K_M format for llama.cpp Android.",
+  "sizeInBytes": 1500000000,
+  "minDeviceMemoryInGb": 4,
+  "commitHash": "main",
+  "contextLength": 4096,
+  "quantization": "Q4_K_M",
+  "defaultConfig": {
+    "topK": 40,
+    "topP": 0.9,
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "threads": 4,
+    "gpuLayers": 0
+  },
+  "taskTypes": [
+    "llm_chat",
+    "llm_prompt_lab"
+  ],
+  "bestForTaskTypes": [
+    "llm_chat",
+    "llm_prompt_lab"
+  ]
+}
+
 
     
     {
