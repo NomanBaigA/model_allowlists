@@ -183,7 +183,33 @@
     "llm_prompt_lab"
   ]
 },
-
+{
+  "name": "Phi-3.5-mini-instruct",
+  "modelId": "MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
+  "modelFile": "Phi-3.5-mini-instruct.Q4_K_M.gguf",
+  "description": "Microsoft Phi-3.5 Mini Instruct model quantized to Q4_K_M format for llama.cpp Android.",
+  "sizeInBytes": 2566244352,
+  "minDeviceMemoryInGb": 4,
+  "commitHash": "main",
+  "contextLength": 4096,
+  "quantization": "Q4_K_M",
+  "defaultConfig": {
+    "topK": 40,
+    "topP": 0.9,
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "threads": 4,
+    "gpuLayers": 0
+  },
+  "taskTypes": [
+    "llm_chat",
+    "llm_prompt_lab"
+  ],
+  "bestForTaskTypes": [
+    "llm_chat",
+    "llm_prompt_lab"
+  ]
+},
         {
       "name": "Phi-4-mini-instruct",
       "modelId": "litert-community/Phi-4-mini-instruct",
