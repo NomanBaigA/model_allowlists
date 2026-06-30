@@ -189,7 +189,7 @@
   "modelFile": "Phi-3.5-mini-instruct.Q4_K_M.gguf",
   "description": "Microsoft Phi-3.5 Mini Instruct model quantized to Q4_K_M format for llama.cpp Android.",
   "sizeInBytes": 2566244352,
-  "minDeviceMemoryInGb": 4,
+  "minDeviceMemoryInGb": 8,
   "commitHash": "main",
   "contextLength": 4096,
   "quantization": "Q4_K_M",
