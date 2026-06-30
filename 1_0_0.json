@@ -165,7 +165,7 @@
   "modelFile": "Llama-3.2-3B-Instruct-Q6_K.gguf",
   "description": "Meta Llama 3.2 3B Instruct model quantized in Q6_K format for llama.cpp Android.",
   "sizeInBytes": 2834678415,
-  "minDeviceMemoryInGb": 6,
+  "minDeviceMemoryInGb": 8,
   "commitHash": "main",
   "defaultConfig": {
     "topK": 40,
