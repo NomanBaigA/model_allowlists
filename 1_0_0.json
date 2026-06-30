@@ -216,7 +216,7 @@
       "modelFile": "Phi-4-mini-instruct_multi-prefill-seq_q8_ekv4096.litertlm",
       "description": "A variant of [microsoft/Phi-4-mini-instruct](https://huggingface.co/microsoft/Phi-4-mini-instruct) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM/blob/main/kotlin/README.md).",
       "sizeInBytes": 3910090752,
-      "minDeviceMemoryInGb": 6,
+      "minDeviceMemoryInGb": 12,
       "commitHash": "054f4e2694a86f81a129a40596e08b8d74770a9d",
       "defaultConfig": {
         "topK": 64,
